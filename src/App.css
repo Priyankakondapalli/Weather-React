@@ -1,0 +1,109 @@
+.weather-app {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing:border-box;
+}
+
+.weather-app .search {
+  /* width: 10%; */
+  margin: 0 auto;
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.weather-app .search input {
+  border: 0;
+  outline: 0;
+  
+  background: linear-gradient(90deg, #d1e0e4 0%, #8a92e1 100%);
+  padding: 10px 25px;
+  height: 40px;
+  border-radius: 25px;
+  margin-right: 16px;
+  font-size: 25px;
+  text-align: center;
+}
+.weather-app .search button {
+border: 0;
+outline: 0;
+background: linear-gradient(90deg, #67cea0 0%, #5b68d9 100%);
+border-radius: 70%;
+width: 80px;
+height: 55px;
+cursor: pointer;
+}
+
+.weather-app .weather {
+width: 90%;
+max-width: 470px;
+background: linear-gradient(90deg, #6a45e3 0%, #014656 100%);
+color: #e4dede;
+margin: 100px auto 0;
+margin-top: 50px;
+border-radius: 20px;
+padding: 40px 35px;
+text-align: center;
+}
+
+.weather-app .weather .city {
+font-size: 80px;
+font-weight: 400;
+
+}
+
+.weather-app .weather .temp {
+font-size: 48px;
+margin-top: auto;
+}
+
+.weather-app .weather .humidity,
+.weather-app .weather .wind {
+font-size: 28px;
+margin-top: -6px;
+padding: 10px;
+}
+.weather-app .weather-icon {
+width: 100px;
+
+}
+.weather-app .error {
+
+margin-top: 37px;
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.humidity-icon,
+.wind-icon {
+
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+padding: 10px;
+width: 60px; 
+height: 80px;
+
+
+
+}
+
+.humidity,
+.wind {
+
+display: flex;
+
+}
+
+.humidity-text,
+.wind-text {
+
+margin-top: -5px;
+font-size:30px;
+}
